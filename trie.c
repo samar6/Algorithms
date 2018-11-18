@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+using namespace std;
 struct TrieNode {
     unordered_map<char, TrieNode *> umap;
     bool isWord;
